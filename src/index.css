@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  width: 20%;
+  background: aqua;
+  min-height: 100vh;
+  height: fit-content;
+}
+
+.menu-list-container {
+  list-style: none;
+  margin: 0;
+}
+
+.menu-item-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  & span {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
